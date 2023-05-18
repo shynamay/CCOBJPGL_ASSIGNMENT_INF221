@@ -34,7 +34,7 @@ public class LoginController {
         System.out.println(username);
         System.out.println(password);
 
-        if (username.equals("mskir") && password.equals("123456")) {
+        if (username.equals("shyna") && password.equals("123456")) {
             Parent root = FXMLLoader.load(getClass().getResource("Scene.fxml"));
             Scene scene = new Scene(root);
             Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
